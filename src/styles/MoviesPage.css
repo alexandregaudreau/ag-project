@@ -1,0 +1,29 @@
+.btn-primary {
+  background-color: #fdd243;
+  border-color: #fdd243;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #f8c51e;
+}
+
+.btn-primary:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

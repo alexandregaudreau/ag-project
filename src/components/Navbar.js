@@ -15,7 +15,7 @@ function Navbar() {
             Home
           </Link>
           <Link to="/movies" className="btn btn-outline-light mx-3">
-            Films
+            Movies
           </Link>
 
           <input
