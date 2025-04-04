@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
-import { API_KEY, API_URL } from '../config'
+import { API_KEY, API_URL } from '../config/config'
 
 function MovieDetail() {
   const { id } = useParams()

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import '../styles/MoviesPage.css'
-import { API_KEY, API_URL } from '../config'
+import { API_KEY, API_URL } from '../config/config'
 
 function MoviesPage() {
   const [movies, setMovies] = useState([])
@@ -17,6 +17,8 @@ function MoviesPage() {
     now_playing: 'Now playing movies',
     upcoming: 'Upcoming movies',
   }[category]
+
+  console.log(API_KEY)
 
   useEffect(() => {
     fetchMovies(category, currentPage)

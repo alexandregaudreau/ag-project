@@ -9,12 +9,11 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.8.4",
     "bootstrap": "^5.3.3",
-    "dotenv": "^16.4.7",
     "font-awesome": "^4.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,7 +44,7 @@
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-prettier": "^5.2.6",
     "prettier": "^3.5.3"
   }
 }
